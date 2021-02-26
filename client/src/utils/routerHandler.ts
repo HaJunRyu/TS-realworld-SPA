@@ -1,6 +1,6 @@
 import Home from '../components/home';
-import Signin from '../components/signin';
-import Signup from '../components/signup';
+import Login from '../components/login';
+import Register from '../components/register';
 import Article from '../components/articlePreview';
 import Edit from '../components/edit';
 import Settings from '../components/settings';
@@ -12,8 +12,8 @@ const $root = document.getElementById('root') as HTMLDivElement;
 const routerHandler = async () => {
   const routes = [
     { path: '/home', View: Home },
-    { path: '/login', View: Signin },
-    { path: '/register', View: Signup },
+    { path: '/login', View: Login },
+    { path: '/register', View: Register },
     { path: '/article', View: Article },
     { path: '/editor', View: Edit },
     { path: '/settings', View: Settings },

@@ -5,7 +5,7 @@ import request from '../api/request';
 class Register extends View {
   constructor() {
     super();
-    this.setTitle('Sign up');
+    this.setTitle('register');
   }
 
   skeleton(): string {
